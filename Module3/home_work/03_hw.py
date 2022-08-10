@@ -2,3 +2,12 @@
 # Вывести на экран сумму всех положительных элементов кратных двум.
 
 # TODO: your code here
+#Help! Положительные кратные двум числа вывести получилось, но никак не могу просумировать их... чего-то не догоняю...
+my_list = []
+for n in range (-100, 100):
+    from random import randint
+    n = randint(-100, 100)
+    my_list.append(n)
+for el in my_list:
+    if el > 0 and el % 2 == 0:
+        print(int(el))
